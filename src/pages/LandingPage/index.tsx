@@ -20,18 +20,18 @@ const LandingPage = () => {
     })
     
     return (
-        <div>
+        <div className="landing-page">
             <img src={ backgroundImg } className="background-image" alt="" />
-            <header>
-                <a className="header-item"><img className="logo" src={ LogoImg } alt="" /></a>
-                <a className="header-item">Contato</a>
-                <a className="header-item">Início</a>
-                <a className="header-item">Sobre Nós</a>
-                <a className="header-item">Serviços</a>
-                <a className="header-item">Entrar</a>
+            <header className="navbar">
+                <a className="navbar-item"><img className="logo" src={ LogoImg } alt="" /></a>
+                <a className="navbar-item">Contato</a>
+                <a className="navbar-item">Início</a>
+                <a className="navbar-item">Sobre Nós</a>
+                <a className="navbar-item">Serviços</a>
+                <a className="navbar-item">Entrar</a>
             </header>
 
-            <div className="beggining">
+            <div className="opening">
                 <h1 className="title">Hey brother</h1>
             </div>
             <div className="about">
