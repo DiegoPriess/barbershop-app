@@ -6,13 +6,11 @@ import LogoImg from "../../assets/img/logo.png";
 const LandingPage = () => {
 
     const fadeHeader = () => {
-        window.addEventListener('scroll', function () {
-            if(window.scrollY > 0) {
-                document.querySelector("header")?.classList.add('active');
-            } else {
-                document.querySelector("header")?.classList.remove('active');
-            }
-        });
+        if(window.scrollY > 0) {
+            document.querySelector("header")?.classList.add('active');
+        } else {
+            document.querySelector("header")?.classList.remove('active');
+        }
     }
     
     useEffect(() => {
